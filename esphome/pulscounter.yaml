@@ -16,11 +16,11 @@ esphome:
     version: "${vdate}"
   
 dashboard_import:
-  package_import_url: github://huizebruin/s0tool/esphome/pulscounter.yaml
+  package_import_url: github://ChrisKoh83/s0tool/esphome/pulscounter.yaml
 
 packages:   
   remote_package:
-    url: https://github.com/huizebruin/s0tool/
+    url: https://github.com/ChrisKoh83/s0tool/
     ref: main
     files: 
       - esphome/components/basis.yaml
